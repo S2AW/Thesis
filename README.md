@@ -5,7 +5,7 @@ I don't know when I will consider this code finalized.
 
 For context:
 Adversary Network.R: Builds the network structures based on the provided CSV file.
-Attack_Vector.R: Generates attack vectors to estimate baseline effort for each node, using the output from Just_Israel.R.
+Attack_Vector.R: Generates attack vectors to estimate baseline effort for each node, using the output from Adversary Network.R.
 Bonacich_Centrality.R: Computes Bonacich centrality scores and identifies key actors within the network.
   The user must choose the type of network to analyze: binary or weighted.
   The user must also specify which vector to use: no vector (by commenting out a section), or vectors based on conflict involvement and casualty data.
